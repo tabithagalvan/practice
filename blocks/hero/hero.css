@@ -11,7 +11,8 @@
 
 .hero h1 { 
     position: relative;
-  max-width: 1200px;
+  /*max-width: 1200px;*/
+    max-width: max-content;
   margin-left: auto;
   margin-right: auto;
   color: var( --hero-font-color);
