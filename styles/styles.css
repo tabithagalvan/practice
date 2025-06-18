@@ -245,6 +245,10 @@ main > .section:first-of-type {
   margin-top: 0;
 }
 
+ul li::marker, ol li::marker {
+  content: none;  /* Remove the bullet or number */
+}
+
 @media (width >= 900px) {
   main > .section > div {
     padding: 0 32px;
