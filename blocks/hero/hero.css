@@ -18,7 +18,7 @@
 }
 .hero h1::after{
     content: '';
-    background: linear-gradient(to right, #ffffff, #c9c9c9);
+    background: linear-gradient(to right, #8b8d8f, #424345);
     height: 4px;
     width: 100%;
     position: absolute;
