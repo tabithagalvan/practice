@@ -249,7 +249,9 @@ ul li::marker, ol li::marker {
   content: none;   
 }
 /*background*/
-background-image: linear-gradient(direction, blue, yellow);
+#grad {
+  background-image: linear-gradient(to right, blue, yellow);
+}
 
 
 @media (width >= 900px) {
