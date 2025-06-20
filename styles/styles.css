@@ -249,6 +249,11 @@ ul li::marker, ol li::marker {
   content: none;   
 }
 
+ul {
+  padding-left: 20px;
+  list-style-type: disc; 
+}
+
 @media (width >= 900px) {
   main > .section > div {
     padding: 0 32px;
