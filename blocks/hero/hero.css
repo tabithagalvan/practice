@@ -14,7 +14,7 @@
     max-width: max-content;
   margin-left: auto;
   margin-right: auto;
-  color: var( --hero-font-color);
+  color: var( --background-color);
 }
 .hero h1::after{
     content: '';
