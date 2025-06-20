@@ -248,6 +248,8 @@ main > .section:first-of-type {
 ul li::marker, ol li::marker {
   content: none;   
 }
+/*background*/
+background-image: linear-gradient(direction, blue, yellow);
 
 
 @media (width >= 900px) {
