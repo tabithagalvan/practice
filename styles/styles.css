@@ -213,17 +213,10 @@ button.secondary {
   color: var(--background-color);
 }
 
-/*edit made to photo in hero*/
-main {
-  margin: 0;
-  padding: 0;
-  width: 100vw; 
-}
-
 main img {
-  width: 100%;
+  max-width: 100%;
+  width: auto;
   height: auto;
-  display: block;
 }
 
 .icon {
