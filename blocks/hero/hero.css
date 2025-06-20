@@ -16,15 +16,6 @@
   margin-right: auto;
   color: var( --background-color);
 }
-.hero h1::after{
-    content: '';
-    background: linear-gradient(to right, #8b8d8f, #424345);
-    height: 4px;
-    width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
 
 .hero picture {
   position: absolute;
