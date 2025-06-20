@@ -250,7 +250,7 @@ ul li::marker, ol li::marker {
 }
 
 ul {
-  padding-left: 20px;
+  padding-left: 100px;
   list-style-type: disc; 
 }
 
