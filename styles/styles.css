@@ -77,12 +77,11 @@
 body {
   display: none;
   margin: 0;
-  /*background-color: var(--background-color);*/
+  background-color: var(--background-color);
   color: var(--text-color);
   font-family: var(--body-font-family);
   font-size: var(--body-font-size-m);
   line-height: 1.6;
-    white-space-collapse: collapse;
 }
 
 body.appear {
@@ -250,10 +249,10 @@ main > .section:first-of-type {
 ul li::marker, ol li::marker {
   content: none;   
 }
-/*background*/
+/*background
 #grad {
   background-image: linear-gradient(to right, blue, yellow);
-}
+}*/
 
 
 @media (width >= 900px) {
