@@ -14,7 +14,7 @@ header nav {
   grid-template:
     'hamburger brand tools' var(--nav-height)
     'sections sections sections' 1fr / auto 1fr auto;
-  align-items: center;
+  align-items: left;
   gap: 0 24px;
   margin: auto;
   max-width: 1248px;
