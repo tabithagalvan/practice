@@ -1,20 +1,11 @@
-/*
- * Table Block
- * Recreate a table
- * https://www.hlx.live/developer/block-collection/table
- */
-
+// Function to build table cells, either <td> or <th> based on rowIndex
 function buildCell(rowIndex) {
   const cell = rowIndex ? document.createElement('td') : document.createElement('th');
   if (!rowIndex) cell.setAttribute('scope', 'col');
   return cell;
 }
-/*trying to alter the table*/
-document.addEventListener("DOMContentLoaded", () => {
-  const block = document.querySelector('.table');
-  decorate(block); // Call your existing decorate function
-});
 
+// Main function to decorate the block with a table structure
 export default async function decorate(block) {
   const table = document.createElement('table');
   const thead = document.createElement('thead');
@@ -24,10 +15,13 @@ export default async function decorate(block) {
   if (header) table.append(thead);
   table.append(tbody);
 
+  // Loop through each child of the block to create table rows
   [...block.children].forEach((child, i) => {
     const row = document.createElement('tr');
     if (header && i === 0) thead.append(row);
     else tbody.append(row);
+    
+    // Loop through columns inside each child and create table cells
     [...child.children].forEach((col) => {
       const cell = buildCell(header ? i : i + 1);
       const align = col.getAttribute('data-align');
@@ -38,6 +32,8 @@ export default async function decorate(block) {
       row.append(cell);
     });
   });
+
+  // Clear the block and append the newly created table
   block.innerHTML = '';
   block.append(table);
 }
