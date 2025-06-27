@@ -9,6 +9,11 @@ function buildCell(rowIndex) {
   if (!rowIndex) cell.setAttribute('scope', 'col');
   return cell;
 }
+/*trying to alter the table*/
+document.addEventListener("DOMContentLoaded", () => {
+  const block = document.querySelector('.table');
+  decorate(block); // Call your existing decorate function
+});
 
 export default async function decorate(block) {
   const table = document.createElement('table');
