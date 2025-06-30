@@ -31,11 +31,11 @@
     order: unset;
   }
 }
-/*columns*/
 @media (width >= 900px) {
   main .section[data-layout] .layout-wrapper {
     display: flex;
     flex-direction: row;
+    align-items: flex-start; /* Align content at top of each column */
   }
 
   /* 50/50 */
@@ -128,8 +128,24 @@
     margin-right: 20px;
   }
 
-  /* Remove last margin-right in all layouts */
+  /* Remove margin from last column to prevent overflow */
   main .section[data-layout] .layout-wrapper > div:last-of-type {
     margin-right: 0;
+  }
+
+  /* Fix uneven heading spacing */
+  main .layout-wrapper h1,
+  main .layout-wrapper h2,
+  main .layout-wrapper h3,
+  main .layout-wrapper h4,
+  main .layout-wrapper h5,
+  main .layout-wrapper h6 {
+    margin-top: 0;
+  }
+
+  /* Remove top spacing on columns */
+  main .section[data-layout] .layout-wrapper > div {
+    padding-top: 0;
+    margin-top: 0;
   }
 }
