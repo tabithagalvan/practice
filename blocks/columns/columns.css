@@ -31,6 +31,8 @@
     order: unset;
   }
 }
+
+/*updated the code for css to fix the spacing issue in the headings*/
 @media (width >= 900px) {
   main .section[data-layout] .layout-wrapper {
     display: flex;
