@@ -23,6 +23,7 @@
   list-style: none;
   outline: none;
   user-select: none;
+    color:  #286684;
 }
 
 /* Hide native marker (triangle) if desired */
