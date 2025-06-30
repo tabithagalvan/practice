@@ -1,22 +1,26 @@
 export default function decorate(block) {
   [...block.children].forEach((row) => {
-    const [label, body] = row.children;
+    const labelWrapper = row.children[0];
+    const bodyWrapper = row.children[1];
 
-    if (!label || !body) return; // Skip if not a valid row
+    if (!labelWrapper || !bodyWrapper) return;
 
-    // Create summary element and set label content
+    // Create summary and move inner content only
     const summary = document.createElement('summary');
     summary.className = 'accordion-item-label';
-    summary.innerHTML = label.innerHTML;
+    summary.innerHTML = labelWrapper.innerHTML; // safe because it's just <p> or inline
 
-    // Decorate body
-    body.classList.add('accordion-item-body');
+    // Create accordion body
+    const body = document.createElement('div');
+    body.className = 'accordion-item-body';
+    body.innerHTML = bodyWrapper.innerHTML;
 
-    // Create accordion item
+    // Build <details> element
     const details = document.createElement('details');
-    details.classList.add('accordion-item');
+    details.className = 'accordion-item';
     details.append(summary, body);
 
+    // Replace row with accordion item
     row.replaceWith(details);
   });
 }
