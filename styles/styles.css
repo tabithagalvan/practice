@@ -163,7 +163,7 @@ a:any-link {
   text-decoration: none;
   overflow-wrap: break-word;
 }
-#online-grant-application-portal{
+h3#online-grant-application-portal{
     padding: 40px;
     color: black;
 }
