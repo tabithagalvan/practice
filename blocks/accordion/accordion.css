@@ -10,12 +10,12 @@
   border-radius: 4px;
   margin-bottom: 8px;
   overflow: hidden;
-  background-color: #e2e8ac;
+  background-color: #c3c791;
 }
 
 /* Accordion header */
 .accordion-item-label {
-  background-color: #e2e8ac;
+  background-color: #c3c791;
   padding: 12px 16px;
   font-weight: bold;
   cursor: pointer;
