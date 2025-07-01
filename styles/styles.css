@@ -166,7 +166,7 @@ a:any-link {
 /* link on home page */
 #online-grant-application-portal a{
     padding: 250px !important;
-    color: black !important;
+    color: var(--new-link-color) !important;
 }
 
 a:hover {
