@@ -164,7 +164,7 @@ a:any-link {
   overflow-wrap: break-word;
 }
 /* link on home page */
-h3#online-grant-application-portal{
+#online-grant-application-portal{
     padding: 40px !important;
     color: black !important;
 }
