@@ -4,7 +4,7 @@
 }
 
 .columns img {
-  /*width: 100%;*/
+  /* width: 100%; */
 }
 
 .columns > div > div {
@@ -32,7 +32,7 @@
   }
 }
 
-/*updated the code for css to fix the spacing issue in the headings*/
+/* updated the code for css to fix the spacing issue in the headings */
 @media (width >= 900px) {
   main .section[data-layout] .layout-wrapper {
     display: flex;
