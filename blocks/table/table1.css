@@ -9,11 +9,6 @@
   border-collapse: seperate;
   font-size: var(--body-font-size-xs);
 }
-/* changing table colors */
-.table table thead tr {
-  background-color: #286684; 
-  color: white; 
-} 
 
 @media (width >= 600px) {
   .table table {
