@@ -6,7 +6,6 @@
 .table table {
   width: 100%;
   max-width: 100%;
-    border-style: solid 
   border-collapse: seperate;
   font-size: var(--body-font-size-xs);
 }
