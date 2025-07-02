@@ -9,6 +9,11 @@
   border-collapse: collapse;
   font-size: var(--body-font-size-xs);
 }
+/* changing table colors */ 
+.table table thead tr {
+  background-color: #c3c791; /* Adjusted header background color */
+  color: white; /* Made text white */
+}
 
 @media (width >= 600px) {
   .table table {
