@@ -1,8 +1,3 @@
-/*
- * Table Block
- * Recreate a table
- * https://www.hlx.live/developer/block-collection/table
- */
 
 function buildCell(rowIndex) {
   const cell = rowIndex ? document.createElement('td') : document.createElement('th');
