@@ -6,8 +6,13 @@
 .table table {
   width: 100%;
   max-width: 100%;
-  border-collapse: collapse;
+  border-collapse: seperate;
   font-size: var(--body-font-size-xs);
+}
+/*changing table colors*/
+.table table thead tr {
+  background-color: #c3c791; /* Adjusted header background color */
+  color: white; /* Made text white */
 }
 
 @media (width >= 600px) {
