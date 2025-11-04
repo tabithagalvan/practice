@@ -39,6 +39,7 @@
   border-top: 1px solid #ddd;
   background-color: #BAC8D4;
   animation: fade-in 0.3s ease-in;
+    color: #fff;
 }
 
 /* Optional: animate only when open */
