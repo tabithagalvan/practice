@@ -36,7 +36,7 @@
 .accordion-item-body {
   padding: 12px 16px;
   border-top: 1px solid #ddd;
-  background-color: #fff;
+  background-color: #e1ebda;
   animation: fadeIn 0.3s ease-in;
 }
 
