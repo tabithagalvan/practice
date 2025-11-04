@@ -10,7 +10,7 @@
   border-radius: 4px;
   margin-bottom: 8px;
   overflow: hidden;
-    color: #fff;
+  color: #fff;
   background-color: #006080;
 }
 
@@ -39,9 +39,9 @@
   border-top: 1px solid #ddd;
   background-color: #fff;
   animation: fade-in 0.3s ease-in;
-    border-style: solid;
+  border-style: solid;
   border-color: #BAC8D4;
-    color: #000000;
+  color: #000000;
 }
 
 /* Optional: animate only when open */
