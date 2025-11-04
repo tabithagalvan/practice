@@ -37,7 +37,7 @@
   padding: 12px 16px;
   border-top: 1px solid #ddd;
   background-color: #e1ebda;
-  animation: fadeIn 0.3s ease-in;
+  animation: fade-in 0.3s ease-in;
 }
 
 /* Optional: animate only when open */
@@ -46,17 +46,18 @@ details.accordion-item[open] .accordion-item-body {
 }
 
 /* Fade-in animation */
-@keyframes fadeIn {
+@keyframes fade-in {
   from {
     opacity: 0;
   }
+    
   to {
     opacity: 1;
   }
 }
 
 /* Responsive (optional) */
-@media (max-width: 600px) {
+@media (width <= 600px) {
   .accordion-item-label,
   .accordion-item-body {
     padding: 10px 12px;
