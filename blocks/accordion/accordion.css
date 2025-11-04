@@ -1,4 +1,4 @@
-/* Root accordion container */
+ /* Root accordion container */
 .accordion {
   margin: 0;
   padding: 0;
@@ -16,7 +16,7 @@
 
 /* Accordion header */
 .accordion-item-label {
-  background-color: #006080;
+  background-color: #fff;
   padding: 12px 16px;
   font-weight: bold;
   cursor: pointer;
@@ -37,8 +37,10 @@
 .accordion-item-body {
   padding: 12px 16px;
   border-top: 1px solid #ddd;
-  background-color: #BAC8D4;
+  background-color: #fff;
   animation: fade-in 0.3s ease-in;
+    border-style: solid;
+  border-color: #BAC8D4;
     color: #000000;
 }
 
